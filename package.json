@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "eslint --fix --ext .ts, .tsx ."
+    "lint": "next lint"
   },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",

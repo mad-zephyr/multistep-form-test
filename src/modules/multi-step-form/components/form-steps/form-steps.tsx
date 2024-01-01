@@ -7,8 +7,9 @@ import { Step } from "./components";
 
 import styles from "./form-steps.module.sass";
 import { useMultiStepFormContext } from "@/context/multistep-form-context";
-import { useMediaQuery } from "@uidotdev/usehooks";
+
 import { FORM_STEPS, MOBILE_QUERY } from "@/common/mockData";
+import useMediaQuery from "@/hooks/useMedia";
 
 export const FormSteps: FC = () => {
   const { step, isThanksStep } = useMultiStepFormContext();

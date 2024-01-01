@@ -11,12 +11,14 @@ import {
   SelectedPlanForm,
   ThanksForm,
 } from "../forms";
+
 import { MultiStepFormContextProvider } from "@/context/multistep-form-context";
 import { Formik } from "formik";
 import { StepFormValidationSchema } from "./components/form-body/form-validation-schema";
 import { FormPropsData } from "./components/form-body/form-body";
-import { useMediaQuery } from "@uidotdev/usehooks";
+
 import { MOBILE_QUERY } from "@/common/mockData";
+import useMediaQuery from "@/hooks/useMedia";
 
 export const INITIAL_VALUES: FormPropsData = {
   name: "",
