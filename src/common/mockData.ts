@@ -22,4 +22,36 @@ const HEADERS: FormHeaderProps[] = [
   },
 ];
 
-export { MOBILE_QUERY, FORM_STEPS, HEADERS };
+const ADDONS = [
+  {
+    name: "plans",
+    value: "arcade",
+    icon: "joystic_advanced",
+    icon_fill: "#FFAF7E",
+    label: "Arcade",
+    price: 9,
+    subtitle: "2 months free",
+  },
+  {
+    name: "plans",
+    value: "advanced",
+    type: "radio",
+    label: "Advanced",
+    icon: "joystic_arcade",
+    icon_fill: "#F9818E",
+    price: 12,
+    subtitle: "2 months free",
+  },
+  {
+    name: "plans",
+    value: "pro",
+    type: "radio",
+    label: "Pro",
+    icon: "joystic_pro",
+    icon_fill: "#483EFF",
+    price: 15,
+    subtitle: "2 months free",
+  },
+];
+
+export { MOBILE_QUERY, FORM_STEPS, HEADERS, ADDONS };
