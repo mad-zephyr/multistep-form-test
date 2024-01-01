@@ -1,0 +1,51 @@
+
+.main
+    display: flex
+    column-gap: 16px
+    align-items: center
+
+.index
+    display: flex
+    align-items: center
+    justify-content: center
+    background: #483EFF
+    border: 1px solid var(--color-sky-blue)
+    width: 32px
+    height: 32px
+    border-radius: 50%
+
+    text-align: center
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    line-height: normal
+    color: var(--color-light-blue)
+
+    &_active
+        background: var(--color-sky-blue)
+        color: var(--color-denim)
+
+.wrapper
+
+.title
+    color: var(--color-white)
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    line-height: normal
+    text-transform: uppercase
+
+.subtitle
+    color: var(--color-light-blue)
+    font-size: 12px
+    font-style: normal
+    font-weight: 400
+    line-height: normal
+    text-transform: uppercase
+    margin-bottom: 4px
+
+@media (max-width: 640px)
+    .main
+        align-items: flex-start
+    .wrapper
+        display: none

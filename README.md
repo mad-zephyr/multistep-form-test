@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Multi-step Form Challenge Using React, TypeScript, SASS, Formik, Yup, and Next.js
 
-## Getting Started
+![Design preview for the Multi-step form coding challenge using React, TypeScript, and other technologies](./design/desktop-preview.jpg)
 
-First, run the development server:
+## Welcome! 👋
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Thanks for checking out my front-end coding challenge submission.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was an excellent opportunity to improve my coding skills by building a realistic project, focusing on creating a multi-step form with various technologies.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Technologies Used:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **React**
+- **TypeScript**
+- **SASS**
+- **Formik**
+- **Yup**
+- **Next.js**
 
-## Learn More
+### Project Duration:
 
-To learn more about Next.js, take a look at the following resources:
+Approximately 2.5 days
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## The Challenge
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The challenge was to build out a multi-step form, ensuring it closely resembles the provided design. The goal was to create an efficient and user-friendly form, taking into consideration various user interactions and validations.
 
-## Deploy on Vercel
+### Key Features:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Users can complete each step of the form sequence.
+- Ability to go back and update selections in previous steps.
+- A summary of selections is available on the final step for confirmation.
+- Responsive design for optimal layout on different screen sizes.
+- Interactive elements with hover and focus states.
+- Form validation using Yup for scenarios like missed fields or incorrect email formats.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Implementation Approach
+
+I started by setting up the project environment with Next.js, integrating TypeScript for type safety and SASS for styling. Formik was instrumental in managing the form state, and Yup provided a seamless way to implement validations.
+
+Each step of the form was carefully crafted to ensure a smooth user experience, with the ability to navigate back and forth between steps without losing data. The responsive design was meticulously tested to ensure functionality across various devices.
+
+## Project Deployment
+
+The project was deployed using Vercel, providing a live demonstration of the multi-step form. This deployment showcases the interactive elements, responsive design, and the overall functionality of the form.
+
+## Reflections and Learnings
+
+This challenge was a valuable learning experience, particularly in managing complex form states and validations. It also provided practical experience in using a combination of React, TypeScript, SASS, Formik, Yup, and Next.js in a real-world project scenario.
+
+The project's codebase is available on my GitHub repository for review and feedback. I welcome any suggestions or comments to further improve the project.
+
+**Enjoy exploring the multi-step form!** 🚀

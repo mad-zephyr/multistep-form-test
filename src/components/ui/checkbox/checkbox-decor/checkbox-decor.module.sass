@@ -1,0 +1,49 @@
+.main
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding: 20px 16px 16px
+    background: var(--color-white)
+    border: 1px solid var(--color-light-border)
+    border-radius: 8px
+    flex-grow: 1
+    cursor: pointer
+    transition: 0.2s ease (border, background)
+    gap: 40px
+    min-height: 180px
+
+    &:hover
+        border: 1px solid var(--color-purple)
+
+    &:has(input:checked)
+        background: var(--color-very-light-grey)
+        border: 1px solid var(--color-purple)
+
+    input
+        display: none
+
+    svg
+        width: 40px
+        height: 40px
+
+.wrapper
+    display: flex
+    flex-direction: column
+    row-gap: 6px
+    line-height: normal
+    font-style: normal
+
+    :nth-child(1)
+        font-size: 16px
+        font-weight: 500
+        color: var(--color-denim)
+
+    :nth-child(2)
+        font-size: 14px
+        font-weight: 400
+        color: var(--color-grey)
+
+    :nth-child(3)
+        font-size: 12px
+        font-weight: 400
+        color: var(--color-denim)

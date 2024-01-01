@@ -1,0 +1,33 @@
+.main
+    position: relative
+    min-width: 274px
+
+.steps
+    display: flex
+    flex-direction: column
+    row-gap: 32px
+    position: relative
+    z-index: 1
+    padding: 32px 40px
+
+.bg
+    position: absolute
+    top: 0
+
+@media (max-width: 640px)
+    .main
+        display: flex
+        justify-content: center
+        position: absolute
+        width: 100vw
+        left: 0
+        top: 0
+        height: 170px
+
+    .steps
+        flex-direction: row
+        column-gap: 16px
+
+    .bg
+        svg
+            width: 100%
